@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "hongsoon-app-myhoneytip",
+    "slug": "hongsoon-app-myhoneytip",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.myhoneytips.soon",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1747228364237212~3018479887"
+      }
+    },
+    "android": {
+      "package": "com.myhoneytips.soon",
+      "versionCode": 1,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1747228364237212~8270806568"
+      }
+    },
+  }
+}
